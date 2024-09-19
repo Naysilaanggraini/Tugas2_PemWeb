@@ -1,0 +1,104 @@
+/* Styling untuk halaman dengan background image */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('latarform1.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Memusatkan form dan tabel di tengah dengan latar transparan */
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Jarak antara form dan tabel */
+    background: rgba(255, 255, 255, 0.8); /* Transparan putih */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    width: 800px; /* Lebar container lebih besar */
+    text-align: center;
+}
+
+/* Styling untuk form dan tabel terpisah */
+.form-section, .table-section {
+    background: rgba(255, 255, 255, 0.9); /* Putih sedikit lebih padat */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling untuk form agar lebih rapi */
+form {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: inline-block;
+    width: 80px;
+    text-align: left;
+}
+
+form input, form textarea {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form textarea {
+    height: 60px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling tabel untuk menampilkan data */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #000;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+h2, h3 {
+    text-align: center;
+    color: #333;
+}
+
+/* Styling untuk elemen tambahan */
+#jumlah-karakter {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+}
